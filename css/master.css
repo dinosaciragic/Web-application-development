@@ -26,6 +26,35 @@ html {
     margin-left: 39%;
 }
 
+.button-for-img {
+    margin-left: 38%;
+}
+
 .job-description {
     margin-left: 5%;
+}
+
+.bg-modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal-content {
+    width: 18%;
+    height: 40%;
+    border-radius: 20px;
+}
+
+.full-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 20px;
 }
