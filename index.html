@@ -170,6 +170,24 @@
                             </ul>
                         </div>
     </div>
+    <!-- contact form which connects to php -->
+    <div>
+        <form action="connect.php" method="post">
+            <div class="form-group name">
+                <input type="text" placeholder="Email" class="form-control" id="email" name="email" />
+            </div>
+
+            <div class="form-group name">
+                <input type="number" placeholder="Phone number" class="form-control" id="number" name="number" />
+            </div>
+
+            <div class="form-group name">
+                <input type="text" placeholder="Message" class="form-control" id="email" name="message" />
+            </div>
+
+            <button class="send-button" type="submit" name="submit">SEND</button>
+        </form>
+    </div>
 </body>
 
 </html>
